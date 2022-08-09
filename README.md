@@ -17,4 +17,4 @@ https://lynchk07.github.io/Workday-Scheduler-/
 https://github.com/Lynchk07/Workday-Scheduler-.git
 
 # Future updates: 
-complete code that uses CSS color styling and javascript to assign past, present, and future color to existing app. 
+Complete code that uses CSS color styling and javascript to assign past, present, and future color to the existing app. 
