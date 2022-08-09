@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    
-    <link rel="stylesheet" href="./assets/style.css">
-
+  
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -41,6 +39,7 @@
           <th scope="col"> Work Schedule</th>
           <th scope="col"></th>
           <th scope="col"></th>
+          <th scope="col"></th>
         
       <div class = "to-dos"></div>
       </thead>
@@ -48,8 +47,8 @@
         <tr>
           <th 
           scope="row" 
-          
-          id="time-color">8am</th>
+
+          class="time-color">8am</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -58,7 +57,10 @@
                id="new-task-add" placeholder="empty"/>
             </form>
           </td>
-        
+          <td>
+            <input 
+            type="submit" id="new-task-submit" value="Add task"/>
+          </td>
           <td id ="actions">
             <button class="save-btn">
               edit
@@ -70,7 +72,7 @@
         <tr>
           <th scope="row"
           
-          id="time-color">9am</th>
+          class="time-color">9am</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -93,7 +95,7 @@
         <tr>
           <th scope="row"
           
-          id="time-color">10am</th>
+          class="time-color">10am</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -117,7 +119,7 @@
         <tr>
           <th 
           scope="row"
-           id="time-color">11am</th>
+          class="time-color">11am</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -140,7 +142,7 @@
         <tr>
           <th scope="row"
           
-          id="time-color">12pm</th>
+          class="time-color">12pm</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -164,7 +166,7 @@
         <tr>
           <th scope="row"
          
-          id="time-color">1pm</th>
+          class="time-color">1pm</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -187,7 +189,7 @@
         <tr>
           <th scope="row"
          
-          id="time-color">2pm</th>
+          class="time-color">2pm</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -211,32 +213,7 @@
         <tr>
           <th scope="row"
           
-          id="time-color">3pm</th>
-          <td class="to-do-list"> 
-            <form id ="new-task">
-              <input 
-              type="text" 
-              class="project"
-              id="new-task-add" placeholder="empty"/>
-            </form>
-          </td>
-          <td>
-            <input 
-            type="submit" 
-            class="project"
-            id="new-task-submit" value="Add task"/>
-          </td>
-          <td id ="actions">
-            <button class="save-btn">
-              edit
-            </button>
-            
-          </td>
-        </tr>
-        <tr>
-          <th scope="row"
-         
-          id="time-color">4pm</th>
+          class="time-color">3pm</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 
@@ -255,12 +232,34 @@
             </button>
             
           </td>
+        </tr>
+        <tr>
+          <th scope="row"
+         
+          class="time-color">4pm</th>
+          <td class="to-do-list"> 
+            <form id ="new-task">
+              <input 
+              type="text" 
+              class="project"
+              id="new-task-add" placeholder="empty"/>
+            </form>
+          </td>
+          <td>
+            <input 
+            type="submit" id="new-task-submit" value="Add task"/>
+          </td>
+          <td id ="actions">
+            <button class="save-btn">
+              edit
+            </button>
+            
+          </td>
           
         </tr>
         <tr>
           <th scope="row"
-          style="color:black"
-          id="time-color">5pm</th>
+          class="time-color">5pm</th>
           <td class="to-do-list"> 
             <form id ="new-task">
               <input 

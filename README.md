@@ -1,35 +1,20 @@
 # Workday-Scheduler-GIVEN I am using a daily planner to create a schedule
+This is a simple workday scheduling app.It uses javascript local storage to store the entry data so when the page is refreshed the task information is still present when the page reloads. There is also an edit button that is available for editing and saving hourly tasks. 
 
+# Code Used: 
+CSS
+HTML
+Javascript
+Moment.js
 
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
+# ScreenShoot
+<img src=./assets/workdaysch.png>
 
-WHEN I click into a time block
-THEN I can enter an event
+# Visit my site here: 
+https://lynchk07.github.io/Workday-Scheduler-/
 
-WHEN I click the save button for that time block
+# Github: 
+https://github.com/Lynchk07/Workday-Scheduler-.git
 
-THEN the text for that event is saved in local storage
-
-WHEN I refresh the page
-THEN the saved events persist.
-
-Need code editing:
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-
-DONE:
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-
-WHEN I click into a time block
-THEN I can enter an event
-
-WHEN I click the save button for that time block
-
-THEN the text for that event is saved in local storage
-
-WHEN I refresh the page
-THEN the saved events persist. 
+Future updates: 
+complete code that uses CSS color styling and javascript to assign past, present, and future color to existing app. 

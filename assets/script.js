@@ -1,10 +1,29 @@
 let timeDisplayEl = $("#time-display");
 
-// Function for time display//
+// Function for time display need more time on the color function//
 var rightNow = moment().format('MMM DD, YYYY [at] HH:mm a');
 timeDisplayEl.text(rightNow);
 function displayTime() {
+
+  for (let index = 0; index < 17; index++) {
+    var colorROW =document.querySelectorAll(".time-color");
+    var momentTimeColor = moment().hours()
+    if (momentTimeColor > index) {
+      color="past"
+    } else if(momentTimeColor === index) {
+      color = "present"
+    } else {
+      color= "future"
+    }
+  }
+  console.log(colorRow.color)
 }
+
+
+// Setting style of element
+//colorRow[index].style.color = "past";
+
+
 
 
 //event listener for task sections
@@ -31,13 +50,14 @@ window.addEventListener('load', () => {
 
 //action button variables
 var editButton = document.querySelectorAll(".save-btn")
+
 var newTask = document.querySelectorAll (".project")
-//Event Listeners for delete and save buttons
+//Event Listeners for edit/ save buttons
 for (let i = 0; i < editButton.length; i++) {
     newTask[i].value = localStorage.getItem(i)
 
   editButton[i].addEventListener('click', e => {
-    console.log("Hello")
+    console.log("input")
     console.log(newTask[i].value)
     localStorage.setItem(i,newTask[i].value)
   })
@@ -46,7 +66,7 @@ for (let i = 0; i < editButton.length; i++) {
 
 function editButton(event) {
   event.preventDefault();
-  console.log("Hello")
+  console.log("input")
 }
 
 

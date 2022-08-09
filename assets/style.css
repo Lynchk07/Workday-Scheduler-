@@ -58,21 +58,26 @@ body {
     color: white;
   }
   
-  .saveBtn {
+  .save-btn {
     border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 25px;
     background-color: #06AED5;
     color: white;
+    float:left;
   }
   
-  .saveBtn i:hover {
+  .save-btn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
 
   #new-task-submit {
-    float: right
-    
+    float: right;
+    display:none
   }
+  
+
+  
+
+
   
