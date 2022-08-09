@@ -8,7 +8,7 @@ This is a simple workday scheduling app. It uses css,html,and javascript. Javasc
 <li>Moment.js</li>
 
 # ScreenShot
-<img src=./assets/workdaysch.png>
+<img src=./assets/screenshotworksch.png>
 
 # Visit my site here: 
 https://lynchk07.github.io/Workday-Scheduler-/
