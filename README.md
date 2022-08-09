@@ -7,7 +7,7 @@ HTML
 Javascript
 Moment.js
 
-# ScreenShoot
+# ScreenShot
 <img src=./assets/workdaysch.png>
 
 # Visit my site here: 
@@ -16,5 +16,5 @@ https://lynchk07.github.io/Workday-Scheduler-/
 # Github: 
 https://github.com/Lynchk07/Workday-Scheduler-.git
 
-Future updates: 
+# Future updates: 
 complete code that uses CSS color styling and javascript to assign past, present, and future color to existing app. 
